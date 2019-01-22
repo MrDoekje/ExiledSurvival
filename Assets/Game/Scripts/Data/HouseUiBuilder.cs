@@ -8,6 +8,8 @@ public class HouseUiBuilder : MonoBehaviour
     public House houseToUpdate;
     public Button addCitizen;
 
+    public Transform citizen;
+
     public Text familyName;
     public Button workerOne;
     public Button workerTwo;
@@ -53,12 +55,7 @@ public class HouseUiBuilder : MonoBehaviour
 
     public void addCitizenToHouse()
     {
-        GameObject guy = Resources.Load("Dummy") as GameObject;
-        if (guy == null)
-        {
-            Debug.Log("IT'S NULL!!!");
-        }
-        Instantiate(guy, new Vector3(400, -2, 115), Quaternion.identity);
+        Instantiate(citizen);
 
         houseToUpdate.addCitizen(1, 1);
     }
