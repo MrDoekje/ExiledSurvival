@@ -963,6 +963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 351336302}
+  positionY: 0
 --- !u!54 &351336302
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1604,7 +1605,7 @@ MonoBehaviour:
   workerName: 
   rend: {fileID: 0}
   rb: {fileID: 1131709524}
-  home: {fileID: 151018164}
+  home: {fileID: 0}
 --- !u!54 &1131709524
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2010,18 +2011,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   houseToUpdate: {fileID: 0}
-  addCitizen: {fileID: 2087153459}
-  familyName: {fileID: 1238928680}
-  workerOne: {fileID: 954853896}
-  workerTwo: {fileID: 53815268}
-  workerThree: {fileID: 1167470629}
-  workerFour: {fileID: 1311160517}
-  workerFive: {fileID: 312901166}
-  workerSix: {fileID: 2063019095}
-  workerSeven: {fileID: 1350298358}
-  workerEight: {fileID: 1339422264}
+  addCitizen: {fileID: 0}
+  citizen: {fileID: 0}
+  familyName: {fileID: 0}
+  workerOne: {fileID: 0}
+  workerTwo: {fileID: 0}
+  workerThree: {fileID: 0}
+  workerFour: {fileID: 0}
+  workerFive: {fileID: 0}
+  workerSix: {fileID: 0}
+  workerSeven: {fileID: 0}
+  workerEight: {fileID: 0}
   workers: []
-  panel: {fileID: 286754216}
+  panel: {fileID: 0}
 --- !u!1 &1238928678
 GameObject:
   m_ObjectHideFlags: 0
@@ -3045,7 +3047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806a514906973c84e862a94313b975c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiUpdater: {fileID: 2058073360}
+  uiUpdater: {fileID: 0}
 --- !u!114 &2058073360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3058,9 +3060,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a239ea9d4e358b4caf59e7b4b7cbafe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goldText: {fileID: 1088277742}
-  woodText: {fileID: 1515496812}
-  stoneText: {fileID: 1190003930}
+  goldText: {fileID: 0}
+  woodText: {fileID: 0}
+  stoneText: {fileID: 0}
   toChangeTo: []
 --- !u!114 &2058073361
 MonoBehaviour:

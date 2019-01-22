@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Game\Scripts\Camera\Camera.cs" />
     <Compile Include="Assets\Game\Scripts\Data\Barn.cs" />
     <Compile Include="Assets\Game\Scripts\Data\Citizen.cs" />
     <Compile Include="Assets\Game\Scripts\Data\House.cs" />
@@ -67,6 +66,7 @@
     <Compile Include="Assets\Game\Scripts\Data\Resources-inventory.cs" />
     <Compile Include="Assets\Game\Scripts\Data\Tier.cs" />
     <Compile Include="Assets\Game\Scripts\Data\UiUpdater.cs" />
+    <Compile Include="Assets\Game\Scripts\playerView\playerView.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/MrDoe/OneDrive/Documenten/Banished++/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
